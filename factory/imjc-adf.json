@@ -1,0 +1,9 @@
+{
+	"name": "imjc-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d147aafd-a15f-4046-afe1-2d60f7755886",
+		"tenantId": "73cbd04e-fb71-4e15-b669-8532f639a94c"
+	}
+}
