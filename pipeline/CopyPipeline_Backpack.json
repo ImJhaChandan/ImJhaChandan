@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_xgj",
+				"name": "CopyData_ADLS1",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
