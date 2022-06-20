@@ -1,0 +1,30 @@
+{
+	"name": "SourceDataset_xgj",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSConn1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ProdDB-2022-6-4-10-27.bacpac",
+				"fileSystem": "jccont1"
+			},
+			"columnDelimiter": "\u0001",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
